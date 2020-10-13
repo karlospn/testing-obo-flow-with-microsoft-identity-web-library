@@ -1,10 +1,8 @@
-# testing-obo-flow-with-microsoft-identity-web-library
-
-We're going to test an OAuth2 Obo Flow using the new library: Microsoft.Identity.Web.
+# Testing OAuth2 OBO Flow using the Microsoft.Identity.Web library
 
 We are building the following scenario:
 
-![Alt Text](https://github.com/karlospn/testing-obo-flow-with-microsoft-identity-web-library/blob/master/docs/obo-flow.png)
+![Alt Text](https://github.com/karlospn/testing-obo-flow-with-microsoft-identity-web-library/blob/main/docs/obo-flow.png)
 
 *This repository only contains the WebApi1 and WebApi2 apps. The client application is not important to test the OBO Flow.
 

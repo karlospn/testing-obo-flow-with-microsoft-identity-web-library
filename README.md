@@ -6,8 +6,10 @@ We are building the following scenario:
 
 *This repository only contains the WebApi1 and WebApi2 apps. The client application is not important to test the OBO Flow.   
 
-1 - Some client calls the WebApi 1 passing an access token.   
-2 - The WebApi 1 authorizes the caller and uses the access token that has received from the WebApi 1 to request another access token for the WebApi 2.    
-3 - Web Api 1 uses the new access token that has acquired to call the Web Api 2.      
+The steps are as follows:
+
+- Some client calls the WebApi 1 passing an access token.   
+- The WebApi 1 authorizes the caller and uses the access token that has received from the WebApi 1 to request another access token for the WebApi 2.    
+- Web Api 1 uses the new access token that has acquired to call the Web Api 2.      
 
 Both WebApi 1 and WebApi 2 are secured using Microsoft.Identity.Web    
